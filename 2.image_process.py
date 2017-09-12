@@ -1,4 +1,4 @@
-__author__ = 'Harsh'
+
 # this code is used to print rgb code of each pixel of the image and save it to list
 # the list will then be saved into sample_data file on which logistic regression is performed
 import numpy as np
@@ -17,7 +17,7 @@ for i in range(1,examples+1):
 
     print(i)
 
-    img1=cv2.imread('C:\Users\Harsh\PycharmProjects\color_detect-using-ML\data\input_data\samples\img'+str(i)+".jpg")
+    img1=cv2.imread('C:\Users\Anindita\PycharmProjects\color_detect-using-ML\data\input_data\samples\img'+str(i)+".jpg")
     try:
         height,width,type=img1.shape  #finding the height and width of the image
     except AttributeError:

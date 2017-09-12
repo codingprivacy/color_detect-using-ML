@@ -1,4 +1,4 @@
-__author__ = 'Harsh'
+
 #this code is used to partition the image into blocks so that we can crop the image and get its segments
 #d_one is no. of blocks horizontally and d_two is no. of blocks vertically
 #the image will automaically be stored
